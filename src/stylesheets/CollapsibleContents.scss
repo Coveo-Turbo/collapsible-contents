@@ -1,0 +1,34 @@
+.CoveoCollapsibleContents {
+    margin-right: 5px;
+
+    &.contents-collapsed {
+        .contents-container {
+            max-height: 0px;
+            overflow: hidden;
+        }
+
+        .contents-toggle {
+            display: block;
+
+            &#expand {
+                display: block;
+            }
+
+            &#collapse {
+                display: none;
+            }
+        }
+    }
+
+    .contents-toggle {
+        margin-right: 5px;
+
+        &#expand {
+            display: none;
+        }
+
+        &#collapse {
+            display: block;
+        }
+    }
+}
