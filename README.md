@@ -50,7 +50,7 @@ export * from '@coveops/collapsible-contents'
 5. Include the CSS in the root `index.scss`
 
 ```css
-@import './../node_modules/@coveops/collapsible-contents/dist/css/index.css';
+@import '../../node_modules/@coveops/collapsible-contents/dist/css/index.css';
 ```
 
 Or for quick testing, you can add the styles from unpkg

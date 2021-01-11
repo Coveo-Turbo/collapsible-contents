@@ -26,7 +26,7 @@ export class CollapsibleContents extends Component {
         toggleFloat: ComponentOptions.buildStringOption({ defaultValue: 'right' }),
     };
 
-    private contentContailer: Dom;
+    protected contentContailer: Dom;
 
     constructor(public element: HTMLElement, public options: ICollapsibleContentsOptions, public bindings: IComponentBindings) {
         super(element, CollapsibleContents.ID, bindings);

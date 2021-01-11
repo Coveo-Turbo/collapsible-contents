@@ -27,7 +27,7 @@ export class CompactView extends Component {
         target: ComponentOptions.buildStringOption({ defaultValue: '.CoveoCollapsibleContents' }),
     };
 
-    private currentToggleStatus: string;
+    protected currentToggleStatus: string;
 
     constructor(public element: HTMLElement, public options: ICompactViewOptions, public bindings: IComponentBindings) {
         super(element, CompactView.ID, bindings);
